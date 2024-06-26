@@ -1,14 +1,14 @@
 const int tempSensorpin=A0;
 const int buzz = 8;
 const float tempTh=25.0;
-int sensorValue
-float temperature
+int sensorValue;
+float temperature;
 
 
 void setup() {
   Serial.begin(9600);
   pinMode(buzz,LOW);
-  degitalWrite(buzz,LOW);
+  digitalWrite(buzz,LOW);
 
 }
 
